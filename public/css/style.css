@@ -446,25 +446,20 @@ header .intro-text {
 }
 .testimonial-image,
 .testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
+  display:block;
+  width: 100px;
+  height: 90px;
+  border-radius: 0%;
 }
 .testimonial-content {
   position: relative;
   overflow: hidden;
 }
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
 .testimonial-meta {
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: white;
 }
 /* Team Section */
 #team {
