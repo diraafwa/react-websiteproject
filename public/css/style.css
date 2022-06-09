@@ -338,6 +338,9 @@ header .intro-text {
 #services .service-desc {
   margin: 10px 10px 20px;
 }
+#services img {
+  width: 150px;
+}
 #services h2 {
   color: #fff;
 }
@@ -473,7 +476,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 140px;
 }
 #team .thumbnail {
   background: transparent;

@@ -8,9 +8,9 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          <a className='navbar-brand page-scroll' href='#header'>
             <div className="header-logo">
-              <img src="	http://www.kcsindo.com/assets/landing/logo.png" alt="" />
+              <img src="http://www.kcsindo.com/assets/landing/logo.png" alt="" />
             </div>
           </a>{' '}
 
@@ -31,7 +31,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                Galeri
               </a>
             </li>
             <li>
