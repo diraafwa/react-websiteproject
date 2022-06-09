@@ -39,13 +39,28 @@
     href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900"
     rel="stylesheet"
   />
-  <title>A React Landing Page Template</title>
+  <title>Karya Cipta Sarana</title>
+  <link rel="icon" type="image/x-icon" href="http://www.kcsindo.com/images/kcs/kcs-visi1.png">
   <meta name="description" content="" />
   <meta name="author" content="@Issaafalkattan" />
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <div id="root"></div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>

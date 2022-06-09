@@ -1,21 +1,22 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Karya Cipta Sarana",
+    "paragraph": "Catering Makanan Tersertifikasi"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": " Berdiri 2010 di Bogor, Jawa Barat. Berawal dari pelayanan catering karyawan di PT. PRADJA PHARIN Citeureup Bogor, Jawa Barat.", 
+     "paragraph2":"Pelayanan Catering event-event kantor di PT.Daria Varia yang merupakan group PT.PRADJA PHARIN untuk kapasitas 800 porsi per hari.",
+     "paragraph3" : "Kami memiliki dapur dengan kapasitas produksi 3000 porsiper hari dengan fasilitas standard hygiene.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Tersertifikasi Halal MUI",
+      "Aman Bagi Kesehatan",
+      "Bahan Baku Berkualitas",
+      "Hasil Produksi Bermutu Tinggi"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Pengiriman Tepat Waktu",
+      "Komitmen dengan Pelanggan",
+      "Meningkatkan Kepuasan Pelanggan"
     ]
   },
   "Gallery": [
@@ -161,24 +162,15 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/logo/logo4.png",
+      "title": "Visi",
+      "text": "Menjadikan perusahaan catering yang aman dan terpercaya serta menyediakan makanan halal dengan cita rasa terbaik."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/logo/logo4.png",
+      "title": "Misi",
+      "text": "Menyediakan makanan yang higienis, bergizi, halal, dan lezat. Memberikan pelayanan catering terbaik untuk berbagai kebutuhan office ataupun kebutuhan pernikahan."
     }
+    
   ]
 }

@@ -2,42 +2,31 @@ export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
-          </a>{' '}
-        </div>
-
+        {/* <div className='navbar-header'> */}
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
+          <a className='navbar-brand page-scroll' href='#page-top'>
+            <div className="header-logo">
+              <img src="	http://www.kcsindo.com/assets/landing/logo.png" alt="" />
+            </div>
+          </a>{' '}
+
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
+              <a href='#about' className='page-scroll'>
+                Tentang Kami
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
-                About
+              <a href='#features' className='page-scroll'>
+                Visi & Misi
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                Layanan
               </a>
             </li>
             <li>
@@ -47,7 +36,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Klien
               </a>
             </li>
             <li>
@@ -61,7 +50,8 @@ export const Navigation = (props) => {
               </a>
             </li>
           </ul>
-        </div>
+          </div>
+        {/* </div> */}
       </div>
     </nav>
   )
